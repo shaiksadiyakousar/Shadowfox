@@ -22,20 +22,41 @@ python3 Task1_Beginner/5_inheritance.py
 ```
 ## Task 2 — Web Scraper & Hangman
 
+This folder contains two beginner-friendly Python programs completed as part of the ShadowFox internship task.
+
 | File | Description |
 |---|---|
-| `Task2_Intermediate/web_scraper.py` | Extracts quote/author/tag data from a website using BeautifulSoup and saves it to a CSV file |
-| `Task2_Intermediate/hangman.py` | Word-guessing game with visual (ASCII) progress and hints |
+| `Task2_Intermediate/web_scraper.py` | Scrapes quotes from a public website using `requests` and `BeautifulSoup`, then saves the results to a CSV file |
+| `Task2_Intermediate/hangman.py` | Runs a word-guessing game with ASCII hangman stages, hints, and replay support |
 
-### How to run
+### Requirements
+- Python 3
+- Internet connection for the web scraper
+- Install dependencies if needed:
+
 ```bash
-python3 Task2_Intermediate/web_scraper.py
-python3 Task2_Intermediate/hangman.py
+pip install beautifulsoup4 requests
 ```
 
-> `web_scraper.py` requires an internet connection. It will install two packages the first time if not already present: `pip install beautifulsoup4 requests`
+### How to run
+From the project root folder:
+
+```bash
+python Task2_Intermediate/web_scraper.py
+python Task2_Intermediate/hangman.py
+```
+
+If you are using Windows PowerShell and `python` is not recognized, try:
+
+```bash
+py Task2_Intermediate/web_scraper.py
+py Task2_Intermediate/hangman.py
+```
+
+### Notes
+- The scraper writes output to `Task2_Intermediate/scraped_quotes.csv`
+- The Hangman game uses a built-in word bank and shows the current progress after each guess
 
 ---
 **Intern:** Shaik Sadiya Kousar
-
 **Track:** Python Development
