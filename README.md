@@ -20,6 +20,20 @@ python3 Task1_Beginner/3_for_loop.py
 python3 Task1_Beginner/4_dictionary.py
 python3 Task1_Beginner/5_inheritance.py
 ```
+## Task 2 — Web Scraper & Hangman
+
+| File | Description |
+|---|---|
+| `Task2_Intermediate/web_scraper.py` | Extracts quote/author/tag data from a website using BeautifulSoup and saves it to a CSV file |
+| `Task2_Intermediate/hangman.py` | Word-guessing game with visual (ASCII) progress and hints |
+
+### How to run
+```bash
+python3 Task2_Intermediate/web_scraper.py
+python3 Task2_Intermediate/hangman.py
+```
+
+> `web_scraper.py` requires an internet connection. It will install two packages the first time if not already present: `pip install beautifulsoup4 requests`
 
 ---
 **Intern:** Shaik Sadiya Kousar
