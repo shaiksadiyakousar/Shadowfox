@@ -49,5 +49,7 @@ jupyter notebook Task3_Advanced/data_analysis.ipynb
 > Needs `pip install jupyter pandas matplotlib seaborn`
 
 ---
-**Intern:** Shaik Rafiya Kousar
+
+**Intern:** Shaik Sadiya Kousar
+
 **Track:** Python Development
